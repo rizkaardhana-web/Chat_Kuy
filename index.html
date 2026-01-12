@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChatKuy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="login-container">
+  <h2>Login Chat</h2>
+  <input type="text" id="username" placeholder="Masukkan nama">
+  <button id="join-btn">Join</button>
+</div>
+
+<div class="chat-container" style="display:none;">
+  <h2>Chat Room</h2>
+  <div class="chat-messages"></div>
+
+  <div class="chat-input-area">
+    <input type="text" class="chat-input" placeholder="Type message...">
+    <button class="send-btn">Send</button>
+  </div>
+
+  <button class="clear-chat-button">Clear Chat</button>
+</div>
+
+<script type="module" src="chat.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
